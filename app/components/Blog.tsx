@@ -52,7 +52,7 @@ const Blog = () => {
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {blogPosts.map((post, index) => (
+        {blogPosts.map((post) => (
           <article
             key={post.id}
             className={`bg-white/70 dark:bg-gray-800/70 backdrop-blur-xl rounded-2xl overflow-hidden shadow-xl border border-white/20 dark:border-gray-700/30 hover:border-blue-500/20 dark:hover:border-blue-500/20 transition-all hover:-translate-y-2 ${

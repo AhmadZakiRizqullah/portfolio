@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="flex flex-col md:flex-row items-center justify-between gap-12 min-h-[80vh]">
       <div className="flex-1 animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 mb-6 tracking-tight animate-gradient">
-          Hello, I'm <br />
+          Hello, I&apos;m <br />
           <span className="block mt-2">Ahmad Zaki</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
